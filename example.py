@@ -10,3 +10,15 @@ if __name__ == "__main__":
     print(f"rainy_forest.jpg Detected Weather: {classify_weather('weathers/rainy_forest.jpg')}\n")
     print(f"cloudy_forest.jpg Detected Weather: {classify_weather('weathers/cloudy_forest.jpg')}\n")
     print(f"foggy_forest.jpg Detected Weather: {classify_weather('weathers/foggy_forest.jpg')}\n")
+
+    # Output:
+    #
+    # {
+    #   'weather': 'Foggy',
+    #   'weather_id': 1,
+    #   'is_forest': True,
+    #   'brightness': 0.9053130408948824,
+    #   'saturation': 0.025096455604639748,
+    #   'contrast': 0.06660447420512314,
+    #   'edge_density': 0.04544075829383886
+    # }
